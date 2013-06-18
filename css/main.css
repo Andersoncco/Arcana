@@ -1,9 +1,33 @@
-/* Global */
+@font-face {
+font-family: 'OpenSans-CondBold-webfont';
+src: url('fonts/OpenSans-CondBold-webfont.eot');
+
+src: local('OpenSans-CondBold-webfont'),
+	local("OpenSans CondBold webfont"),
+
+	url('fonts/OpenSans-CondBold-webfont.eot?#iefix') format('embedded-opentype'),
+	url('fonts/OpenSans-CondBold-webfont.woff') format('woff'),
+	url('fonts/OpenSans-CondBold-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+font-family: 'OpenSans-CondLight-webfont';
+src: url('fonts/OpenSans-CondLight-webfont.eot');
+
+src: local('OpenSans-CondLight-webfont'),
+	local("OpenSans CondLight webfont"),
+
+	url('fonts/OpenSans-CondLight-webfont.eot?#iefix') format('embedded-opentype'),
+	url('fonts/OpenSans-CondLight-webfont.woff') format('woff'),
+	url('fonts/OpenSans-CondLight-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
 
 body{
-	font-family: "Open Sans Condensed";
-	font-size: 16px;
-	line-height: 26px;
+	font-family: 'OpenSans-CondLight-webfont';
 }
 
 .wrap{
@@ -11,3 +35,52 @@ body{
 	margin: 0 5%;
 }
 
+header{
+		background-image: linear-gradient(to bottom, #393939, #242424);
+	}
+
+.logo{
+	font-family: 'OpenSans-CondLight-webfont';
+	font-size: 20px;
+	text-align: center;
+	padding: 10px 0 10px 0;
+}
+
+.logo a{
+	text-decoration: none;
+	color: white;
+}
+<style>
+article #content{
+	color: #797979;
+}
+
+aside ul li{
+	border-bottom:1px solid #eee;
+}
+aside ul li:last-child{
+	border-bottom: none;
+}
+aside ul a{
+	display: block;
+	padding: 5px;
+	color: #50870b;
+}
+
+aside ul a:hover{
+	text-decoration: none;
+}
+footer{
+	background: #f0f0f0 url(img/bg1.png);
+	padding: 30px 0 30px 5%;
+	box-shadow: insert 0 10px 60px 0 rgba(0,0,0,0.15);
+	</style>
+}
+
+
+@media only screen and (max-width: 480px){
+
+	/* MENU */
+
+	
+}
